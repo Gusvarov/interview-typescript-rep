@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc --p . -w",
+    "start": "nodemon src/index.ts",
+    "dev": "nodemon src/index.ts"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
