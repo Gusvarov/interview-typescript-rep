@@ -9,6 +9,7 @@
     "dev": "nodemon src/index.ts"
   },
   "dependencies": {
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.22",
+    "tslint": "^6.1.3"
   }
 }
